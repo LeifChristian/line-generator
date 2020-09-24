@@ -1,0 +1,71 @@
+input {
+    max-width: 2.6rem;
+    border-radius: 1em;
+    margin: 1em;
+    font-weight: 600;
+}
+
+body {
+    text-align: center;
+}
+
+
+button {
+    border-radius: 1em;
+    margin: .4em;
+    font-weight: 600;
+
+}
+
+#submitButton {
+    border-radius: 1em;
+}
+
+form {
+    display: inline;
+    font-weight: 700;
+    justify-content: center;
+}
+
+h1 {font-size: 2em;}
+
+#formId {
+    /* margin-left: 5%;  */
+}
+
+/* #canvas {
+    margin-top: 12em;
+} */
+
+/* #lineCanvas {
+    height: 200%;
+} */
+
+
+#bottomButtons {
+    
+    text-align: center;
+}
+
+#mousePosition {
+text-align: center;
+}
+
+#lineCanvas {height: 26em; }
+
+#mousePosition p{
+    margin-bottom: .1rem;;
+    }
+
+    @media only screen and (max-width: 610px) {
+        h2 {
+          display: none;
+        }
+
+        h1 { font-size: 1.3rem; font-style: italic;}
+        form {display: inline-block;}
+
+        #lineCanvas {height: 20em; }
+
+        body {text-align: center;}
+      }
